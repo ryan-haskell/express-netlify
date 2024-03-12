@@ -22,3 +22,5 @@ app.get('*', (req, res, next) => res.sendFile(indexHtmlFilepath))
 
 // Runs the express server
 app.listen(port, () => console.info(`🚀 Ready at http://localhost:${port}`))
+
+export default app
